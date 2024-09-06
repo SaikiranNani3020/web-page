@@ -1,0 +1,94 @@
+/* Container Styling */
+.bg-container {
+    font-family: roboto;
+    background-color:#ffff;
+    margin: 0px;
+    padding: 0;
+    border: 2px solid black;
+}
+.top-card {    
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.heading{
+    background-color: #9c27b0;
+    color: #ffff;
+    width: auto;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 8px;
+    border-radius: 5px;
+}
+.description{
+    font-family: roboto;
+    font-size: 20px;
+}
+.dashed-line{
+    border: 2px dashed #9c27b0;
+    width: 40%;
+}
+.leadership-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.head{
+    font-family: roboto;
+    font-size: 25px;
+}
+.development-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.image{
+    width: 200px;
+    height: 150px;
+}
+.name {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold ;
+}
+.designation {
+    font-size: 20px;
+    color: #9c27b0;
+    font-style: italic;
+}
+.profiles-container{
+    display: flex;
+    justify-content: center;
+}
+.development-profiles-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left:100px ;
+}
+.sales-profiles-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left:100px ;
+
+}
+
+.profile {
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+
